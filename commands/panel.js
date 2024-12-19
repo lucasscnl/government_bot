@@ -151,7 +151,7 @@ async function showManagePanel(interaction, targetUser, guild) {
     
     const wlbotButton = new ButtonBuilder()
         .setCustomId('wlbot')
-        .setLabel('Ancien')
+        .setLabel('WL Bot')
         .setStyle(ButtonStyle.Secondary);
 
     const row1 = new ActionRowBuilder().addComponents(recruitButton, fireButton, wlrecrutementButton, wlbotButton);
